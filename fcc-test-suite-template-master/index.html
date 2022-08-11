@@ -10,87 +10,94 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <h1>Hello World, we are software developers!</h1>
+    <nav id="navbar" ></nav> 
     <main id="main-doc">
-      <section id="introduction" class="main-section">
-        <h1>Introduction</h1>
-        <p>
-          JavaScript is a cross-platform, object-oriented scripting language. It
-          is a small and lightweight language. Inside a host environment (for
-          example, a web browser), JavaScript can be connected to the objects of
-          its environment to provide programmatic control over them.
-        </p>
-        <p>
-          JavaScript contains a standard library of objects, such as Array,
-          Date, and Math, and a core set of language elements such as operators,
-          control structures, and statements. Core JavaScript can be extended
-          for a variety of purposes by supplementing it with additional objects;
-          for example:
-          <code>var x = 42. </code>
-        </p>
-      </section>
-      <section id="Whatyoushouldalreadyknow" class="main-section">
-        <h1>What you should already know</h1>
-        <p>This guide assumes you have the following basic background:</p>
-        <p>
-          Some programming experience. If you are new to programming, try one of
-          the tutorials linked on the main page about JavaScript.
-        </p>
-        <code>if (true) { var x = 5; } console.log(x); // 5 </code>
-      </section>
-      <section id="javascriptandjava" class="main-section">
-        <h1>Javascript and Java</h1>
-        <p>
-          JavaScript and Java are similar in some ways but fundamentally
-          different in some others. The JavaScript language resembles Java but
-          does not have Java's static typing and strong type checking.
-          JavaScript follows most Java expression syntax, naming conventions and
-          basic control-flow constructs which was the reason why it was renamed
-          from LiveScript to JavaScript.
-        </p>
-        <p>
-          JavaScript is a very free-form language compared to Java. You do not
-          have to declare all variables, classes, and methods. You do not have
-          to be concerned with whether methods are public, private, or
-          protected, and you do not have to implement interfaces. Variables,
-          parameters, and function return types are not explicitly typed.
-        </p>
-      </section>
-      <section id="HelloWorld" class="main-section">
-        <h1>Hello world</h1>
-        <p>
-          To get started with writing JavaScript, open the Scratchpad and write
-          your first "Hello world" JavaScript code:
-        </p>
-        <code>if (true) { var x = 5; } console.log(x); // 5 </code>
-        <p>
-          Select the code in the pad and hit Ctrl+R to watch it unfold in your
-          browser!
-        </p>
-      </section>
-      <section id="variables" class="main-section">
-        <h1>Variables</h1>
-        <p>
-          You use variables as symbolic names for values in your application.
-          The names of variables, called identifiers, conform to certain rules.
+        <section id="introduction" class="main-section">
+          <h1>Introduction</h1>
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It
+            is a small and lightweight language. Inside a host environment (for
+            example, a web browser), JavaScript can be connected to the objects of
+            its environment to provide programmatic control over them.
+          </p>
+          <p>
+            JavaScript contains a standard library of objects, such as Array,
+            Date, and Math, and a core set of language elements such as operators,
+            control structures, and statements. Core JavaScript can be extended
+            for a variety of purposes by supplementing it with additional objects;
+            for example:
+            <code>var x = 42. </code>
+          </p>
+          <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+             <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+        </section>
+        <section id="Whatyoushouldalreadyknow" class="main-section">
+          <h1>What you should already know</h1>
+          <p>This guide assumes you have the following basic background:</p>
+          <p>
+            Some programming experience. If you are new to programming, try one of
+            the tutorials linked on the main page about JavaScript.
+          </p>
           <code>if (true) { var x = 5; } console.log(x); // 5 </code>
-        </p>
-        <p>
-          A JavaScript identifier must start with a letter, underscore (_), or
-          dollar sign ($); subsequent characters can also be digits (0-9).
-          Because JavaScript is case sensitive, letters include the characters
-          "A" through "Z" (uppercase) and the characters "a" through "z"
-          (lowercase).
-        </p>
-      </section>
-      <section id="Declaringvariables" class="main-section">
-        <h1>Declaring Variables</h1>
-        <p>
-          This always declares a global variable. It generates a strict
-          JavaScript warning. You shouldn't use this variant.
+  
+             <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+             <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+             <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+        </section>
+        <section id="javascriptandjava" class="main-section">
+          <h1>Javascript and Java</h1>
+          <p>
+            JavaScript and Java are similar in some ways but fundamentally
+            different in some others. The JavaScript language resembles Java but
+            does not have Java's static typing and strong type checking.
+            JavaScript follows most Java expression syntax, naming conventions and
+            basic control-flow constructs which was the reason why it was renamed
+            from LiveScript to JavaScript.
+          </p>
+          <p>
+            JavaScript is a very free-form language compared to Java. You do not
+            have to declare all variables, classes, and methods. You do not have
+            to be concerned with whether methods are public, private, or
+            protected, and you do not have to implement interfaces. Variables,
+            parameters, and function return types are not explicitly typed.
+          </p>
+        </section>
+        <section id="HelloWorld" class="main-section">
+          <h1>Hello world</h1>
+          <p>
+            To get started with writing JavaScript, open the Scratchpad and write
+            your first "Hello world" JavaScript code:
+          </p>
           <code>if (true) { var x = 5; } console.log(x); // 5 </code>
-        </p>
-      </section>
-    </main>
+          <p>
+            Select the code in the pad and hit Ctrl+R to watch it unfold in your
+            browser!
+          </p>
+        </section>
+        <section id="variables" class="main-section">
+          <h1>Variables</h1>
+          <p>
+            You use variables as symbolic names for values in your application.
+            The names of variables, called identifiers, conform to certain rules.
+            <code>if (true) { var x = 5; } console.log(x); // 5 </code>
+          </p>
+          <p>
+            A JavaScript identifier must start with a letter, underscore (_), or
+            dollar sign ($); subsequent characters can also be digits (0-9).
+            Because JavaScript is case sensitive, letters include the characters
+            "A" through "Z" (uppercase) and the characters "a" through "z"
+            (lowercase).
+          </p>
+        </section>
+        <section id="Declaringvariables" class="main-section">
+          <h1>Declaring Variables</h1>
+          <p>
+            This always declares a global variable. It generates a strict
+            JavaScript warning. You shouldn't use this variant.
+            <code>if (true) { var x = 5; } console.log(x); // 5 </code>
+          </p>
+        </section>
+      </main>
     <script src="js/index.js"></script>
   </body>
 </html>
